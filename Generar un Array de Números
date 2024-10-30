@@ -1,0 +1,6 @@
+function generateNumbers(n) {
+    return Array.from({ length: n }, (_, i) => i + 1);
+}
+
+// Ejemplo
+console.log(generateNumbers(5)); // [1, 2, 3, 4, 5]
